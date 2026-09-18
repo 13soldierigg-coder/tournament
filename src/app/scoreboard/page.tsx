@@ -92,9 +92,9 @@ export default function StadiumArenaScoreboardPage() {
       <header className="flex flex-col md:flex-row md:items-center justify-between pb-5 border-b border-slate-800/80 gap-4">
         <div className="flex items-center gap-4">
           <Link
-            href="/prototypes/court-dispatcher"
+            href="/"
             className="p-2.5 rounded-2xl bg-slate-900/90 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition-all active:scale-95"
-            title="Quay lại Bàn Điều Phối Sân"
+            title="Quay lại Trang Chủ"
           >
             <ArrowLeft className="w-5 h-5" />
           </Link>
@@ -319,25 +319,8 @@ export default function StadiumArenaScoreboardPage() {
       </main>
 
       {/* Arena Footer */}
-      <footer className="pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
+      <footer className="pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-center text-xs text-slate-500 gap-2">
         <div>Badminton Arena Central LED Wall • Live Broadcast Mode 2026</div>
-        <div className="flex items-center gap-4">
-          <Link
-            href="/prototypes/court-dispatcher"
-            className="text-cyan-400 hover:underline flex items-center gap-1"
-          >
-            <span>Bàn Điều Phối Sân</span>
-            <ExternalLink className="w-3 h-3" />
-          </Link>
-          <span>•</span>
-          <Link
-            href="/prototypes/umpire-scoring"
-            className="text-emerald-400 hover:underline flex items-center gap-1"
-          >
-            <span>Bàn Trọng Tài Sân</span>
-            <ExternalLink className="w-3 h-3" />
-          </Link>
-        </div>
       </footer>
     </div>
   );
