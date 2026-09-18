@@ -56,11 +56,13 @@ function LoginForm() {
     setErrorMessage('');
     setIsSubmitting(true);
     const res = await loginWithEmail(email, password);
-    setIsSubmitting(false);
 
     if (res.success) {
+      // Do not set isSubmitting(false) here. Next.js router.push takes a moment to fetch the RSC payload.
+      // Keeping it true ensures the loading spinner remains visible until the new page renders.
       router.push(redirectUrl);
     } else {
+      setIsSubmitting(false);
       setErrorMessage(res.error || (isEn ? 'Login failed' : 'Đăng nhập thất bại'));
     }
   };
@@ -68,10 +70,12 @@ function LoginForm() {
   const handleRefereePinSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMessage('');
+    setIsSubmitting(true);
     const res = loginWithCourtPin(courtNumber, courtPin);
     if (res.success) {
       router.push(`/scoreboard/court/${courtNumber}`);
     } else {
+      setIsSubmitting(false);
       setErrorMessage(res.error || 'Mã PIN sân không đúng');
     }
   };
