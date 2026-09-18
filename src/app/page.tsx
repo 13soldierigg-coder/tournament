@@ -485,61 +485,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* SECTION 3: CORE OPERATIONAL PROTOTYPES */}
-        <section className="space-y-4 pt-2">
-          <div className="flex items-center justify-between">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-slate-400">
-              Interactive Operational Prototypes (Phase 2)
-            </h3>
-            <Link
-              href="/prototypes"
-              className="text-xs text-cyan-400 hover:text-cyan-300 font-semibold"
-            >
-              {t.home.explorePrototypes} →
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link
-              href="/prototypes/athlete-registration"
-              className="group block p-6 rounded-2xl border border-slate-800 bg-slate-900/60 hover:bg-slate-900 hover:border-cyan-500/40 transition-all"
-            >
-              <div className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-4 group-hover:scale-110 transition-transform">
-                <Users className="w-6 h-6" />
-              </div>
-              <h4 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors">
-                {t.home.regTitle}
-              </h4>
-              <p className="mt-2 text-xs text-slate-400 leading-relaxed">{t.home.regDesc}</p>
-            </Link>
-
-            <Link
-              href="/prototypes/organizer-draw"
-              className="group block p-6 rounded-2xl border border-slate-800 bg-slate-900/60 hover:bg-slate-900 hover:border-amber-500/40 transition-all"
-            >
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-4 group-hover:scale-110 transition-transform">
-                <ShieldCheck className="w-6 h-6" />
-              </div>
-              <h4 className="text-base font-bold text-white group-hover:text-amber-400 transition-colors">
-                {t.home.drawTitle}
-              </h4>
-              <p className="mt-2 text-xs text-slate-400 leading-relaxed">{t.home.drawDesc}</p>
-            </Link>
-
-            <Link
-              href="/prototypes/umpire-scoring"
-              className="group block p-6 rounded-2xl border border-slate-800 bg-slate-900/60 hover:bg-slate-900 hover:border-emerald-500/40 transition-all"
-            >
-              <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
-                <Activity className="w-6 h-6" />
-              </div>
-              <h4 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">
-                {t.home.umpireTitle}
-              </h4>
-              <p className="mt-2 text-xs text-slate-400 leading-relaxed">{t.home.umpireDesc}</p>
-            </Link>
-          </div>
-        </section>
       </div>
     </main>
   );
