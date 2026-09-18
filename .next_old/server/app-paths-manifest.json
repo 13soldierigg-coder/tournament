@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/login/page": "app/login/page.js",
+  "/prototypes/athlete-registration/page": "app/prototypes/athlete-registration/page.js",
+  "/page": "app/page.js",
+  "/prototypes/match-scoresheet/page": "app/prototypes/match-scoresheet/page.js",
+  "/prototypes/court-dispatcher/page": "app/prototypes/court-dispatcher/page.js",
+  "/admin/tournaments/page": "app/admin/tournaments/page.js",
+  "/register/organizer/page": "app/register/organizer/page.js",
+  "/prototypes/page": "app/prototypes/page.js",
+  "/prototypes/umpire-scoring/page": "app/prototypes/umpire-scoring/page.js",
+  "/register/partner-accept/page": "app/register/partner-accept/page.js",
+  "/prototypes/organizer-draw/page": "app/prototypes/organizer-draw/page.js",
+  "/admin/tournaments/create/page": "app/admin/tournaments/create/page.js",
+  "/scoreboard/page": "app/scoreboard/page.js",
+  "/rankings/page": "app/rankings/page.js",
+  "/register/page": "app/register/page.js",
+  "/tournaments/[slug]/page": "app/tournaments/[slug]/page.js",
+  "/tournaments/[slug]/register/page": "app/tournaments/[slug]/register/page.js",
+  "/scoreboard/court/[courtNumber]/page": "app/scoreboard/court/[courtNumber]/page.js"
+}
