@@ -182,7 +182,7 @@ export default function HomePage() {
                 {locale === 'vi' ? '+ Tạo Giải Đấu Mới' : '+ Create Tournament'}
               </Link>
               <Link
-                href="/prototypes"
+                href="/scoreboard"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-500/25 active:scale-95"
               >
                 {t.home.explorePrototypes}

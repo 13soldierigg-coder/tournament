@@ -22,10 +22,10 @@ export const vi: Dictionary = {
     viewDetails: 'Xem chi tiết',
   },
   home: {
-    badge: 'Giai đoạn 1 & 2: BWF Engine & Interactive Prototypes',
+    badge: 'Nền Tảng Vận Hành Giải Đấu Chuyên Nghiệp',
     heroTitle: 'Sẵn sàng vận hành giải đấu thực tế với độ trễ thấp & offline-resilient',
-    heroDesc: 'Trải nghiệm 3 màn hình cốt lõi giải quyết bài toán vận hành thực chiến: Đăng ký minh bạch tiến độ, Bốc thăm chia bảng/nhánh đấu BWF, và Bảng chấm điểm trọng tài công thái học.',
-    explorePrototypes: 'Khám phá 3 Clickable Prototypes',
+    heroDesc: 'Nền tảng quản lý toàn diện giúp Ban tổ chức bốc thăm chuẩn BWF, Trọng tài chấm điểm qua thiết bị di động, và Khán giả theo dõi trực tiếp kết quả.',
+    explorePrototypes: 'Mở Bảng Điểm Tivi',
     regTitle: '1. Đăng Ký Vận Động Viên (Doubles Wizard)',
     regDesc: 'Đăng ký đôi với thanh trạng thái dính, đếm suất còn lại, mời đồng đội qua QR/Link và bảng checklist lý do chưa thể chốt.',
     drawTitle: '2. Bốc Thăm & Phân Bổ Hạt Giống (Organizer Draw)',

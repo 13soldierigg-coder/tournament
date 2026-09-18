@@ -22,10 +22,10 @@ export const en: Dictionary = {
     viewDetails: 'View Details',
   },
   home: {
-    badge: 'Phase 1 & 2: BWF Engine & Interactive Prototypes',
+    badge: 'Professional Tournament Management Platform',
     heroTitle: 'Tournament operations ready with ultra-low latency & offline resilience',
-    heroDesc: 'Experience 3 core interactive screens addressing real-world operational bottlenecks: Transparent registration blockers, BWF bracket draw, and ergonomic court umpire score sheet.',
-    explorePrototypes: 'Explore 3 Clickable Prototypes',
+    heroDesc: 'Comprehensive platform empowering organizers with BWF standard draws, umpires with mobile scoring, and spectators with live real-time results.',
+    explorePrototypes: 'Open TV Scoreboard',
     regTitle: '1. Athlete Registration (Doubles Wizard)',
     regDesc: 'Doubles registration with sticky quota bar, partner invite via QR/Link, and clear blockers checklist eliminating repetitive BTC inquiries.',
     drawTitle: '2. Organizer Draw & Seeding (BWF Engine)',
